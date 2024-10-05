@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carteirinha USP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #F1A341;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .header h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .header .menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .card img {
+            width: 100px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .qr-code {
+            margin-top: 20px;
+        }
+
+        .qr-code img {
+            width: 150px;
+            /* height: 150px; */
+        }
+
+        .footer {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .usp-logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .usp-logo img {
+            width: 120px;
+            height: auto;
+        }
+
+        .usp-logo h4 {
+            font-size: 14px;
+            margin-top: 0; /* Removendo o espaço entre a imagem e o texto */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Header com "e-Card" e ícone de três pontinhos -->
+        <div class="header">
+            <h3>e-Card</h3>
+            <span class="menu-icon">&#8942;</span>
+        </div>
+        
+        <div class="usp-logo">
+            <img src="./assets/usp-logo-png.png" alt="QR Code">
+            <h4>Universidade de São Paulo</h4>
+        </div>
+
+        <h2>ALUNO</h2>
+        <img src="./assets/WhatsApp Image 2024-10-05 at 15.58.34.jpeg" alt="Foto da Aluna">
+        <p><strong>Nome do Aluno</strong></p>
+        <p>Pedro Augusto de Oliveria Siqueira</p>
+        <p>Faculdade de Economia e Administração</p>
+        <p>GRADUAÇÃO</p>
+
+        <div class="qr-code">
+            <img src="./assets/Design sem nome.png" alt="QR Code">
+        </div>
+
+        <div class="footer">
+            <p>Código QR expira em 05/10/2024 23:59</p>
+        </div>
+    </div>
+</body>
+</html>
